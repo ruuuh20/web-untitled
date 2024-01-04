@@ -1,0 +1,16 @@
+/* @font-face {
+  font-family: 'Example Sans';
+  src: url('../public/fonts/ExampleSans-Regular.woff2') format('woff2'),
+      url('../public/fonts/ExampleSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+@font-face {
+  font-family: "Strange";
+  src: url("../public/fonts/Strange.ttf") format("ttf"),
+    /* Modern Browsers */ url("../public/fonts/Strange.otf") format("opentype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
